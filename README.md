@@ -1,11 +1,21 @@
+# Vagrant-ws, a Vagrant-enabled linux workspace
+
+
+An attempt at setting up my personal workspace via Vagrant on debian,
+experimenting with Vagrant for VM, and Ansible/Guix/Nix for machine setup.
+
+This repo originally was part of my personal config repo = jibyconf, but now
+lives on its own.
+
+
 # Jiby's dev environment playbook
 
 Configure a Debian machine for development using Ansible playbook.
 
 Test it on a new Debian bullseye VM via Vagrant, auto-provisioning it.
 
-Alternatively, a debian-based server deploying gitea via docker is
-also available in the Vagrant file for more experimentation.
+Alternatively, a debian-based server deploying gitea via docker is also
+available in the Vagrant file for more experimentation.
 
 
 ## Demo
