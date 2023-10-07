@@ -1,0 +1,5 @@
+---
+- name: Install docker
+  import_playbook: ../docker.yml
+- import_playbook: gitea.yml
+- import_playbook: postgres.yml
